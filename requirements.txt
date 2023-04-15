@@ -1,0 +1,4 @@
+Flask-Limiter
+flask 
+requests
+bs4

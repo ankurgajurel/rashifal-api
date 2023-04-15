@@ -4,3 +4,5 @@ test.*
 *.pyc
 
 /env
+
+upload.zip

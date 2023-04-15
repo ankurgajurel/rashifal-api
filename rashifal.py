@@ -12,7 +12,7 @@ limiter = Limiter(
 
 @app.route('/')
 def index():
-    return 'you are using rashifal api'
+    return "<div style=\"font-size: 700%;overflow:hidden;\">this api will serve rashifal for different rashis on daily, monthly and yearly basis in unicode.<br> check more at: <a href=\"https:\/\/github.com\/ankurgajurel\/rashifal-api\">https://github.com/ankurgajurel/rashifal-api</a></div>"
 
 @app.route('/daily/<rashi>')
 @limiter.limit("10 per minute")

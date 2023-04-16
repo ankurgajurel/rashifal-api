@@ -31,7 +31,7 @@ response = requests.get(base_url).text
 print(response)
 ```
 
-### 'GET /rashifal/daily[rashi]
+### 'GET /daily[rashi]'
 
 <p>Parameters</p>
 
@@ -48,7 +48,7 @@ response = requests.get(work_url + "/" + rashi).text
 print(response)
 ```
 
-### 'GET /rashifal/monthly/[rashi]
+### 'GET /monthly/[rashi]'
 
 <p>Parameters</p>
 
@@ -65,7 +65,7 @@ response = requests.get(work_url + "/" + rashi).text
 print(response)
 ```
 
-### 'GET /rashifal/yearly/[rashi]
+### 'GET /yearly/[rashi]'
 
 <p>Parameters</p>
 

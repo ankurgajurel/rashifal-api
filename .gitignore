@@ -4,5 +4,6 @@ test.*
 *.pyc
 
 /env
+/.vscode
 
 upload.zip

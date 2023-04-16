@@ -81,3 +81,18 @@ rashi = "singha"
 response = requests.get(work_url + "/" + rashi).text
 print(response)
 ```
+
+## TESTS
+
+To test the endpoints of the API, run the following commands 
+
+```bash
+cd ./tests
+python3 test_api.py
+```
+
+And, check the following URL on the browser.
+
+```link
+http://127.0.0.1:9881
+```
